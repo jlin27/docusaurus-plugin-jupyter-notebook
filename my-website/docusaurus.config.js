@@ -103,4 +103,8 @@ module.exports = {
       },
     ],
   ],
+
+  plugins:[
+    '/Users/jplin/github/plugin-jupyter-notebook/my-website/jupyter-plugin',
+  ]
 };
