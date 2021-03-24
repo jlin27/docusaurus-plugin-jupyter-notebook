@@ -105,6 +105,6 @@ module.exports = {
   ],
 
   plugins:[
-    '/Users/jplin/github/plugin-jupyter-notebook/my-website/jupyter-plugin',
+    '/Users/jplin/github/docusaurus-plugin-jupyter-notebook/my-website/plugin-jupyter-notebook',
   ]
 };

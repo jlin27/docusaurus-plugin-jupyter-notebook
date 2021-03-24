@@ -1,0 +1,14 @@
+{
+  "name": "plugin-jupyter-notebook",
+  "version": "1.0.0",
+  "description": "Plugin to integrate Jupyter notebooks into Docusaurs",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "libe/index.d.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
