@@ -4,7 +4,10 @@
   "description": "Plugin to integrate Jupyter notebooks into Docusaurs",
   "license": "MIT",
   "main": "lib/index.js",
-  "types": "libe/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "types": "lib/index.d.ts",
   "scripts": {
     "tsc": "tsc"
   },
