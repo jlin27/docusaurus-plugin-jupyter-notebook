@@ -9,9 +9,9 @@
 The plugin converts the notebook to html and renders that in the browser. This is how the plugin works:
    1. Convert .ipynb → html using nbconvert 
    2. Convert html → jsx using https://github.com/reactjs/react-magic/blob/master/README-htmltojsx.md
-    * Web-based version https://magic.reactjs.net/htmltojsx.htm
+     * Web-based version https://magic.reactjs.net/htmltojsx.htm
    3. Add the converted jsx notebook as a component in a mdx doc page
-    * [TestJupyterComponent.js](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/src/pages/TestJupyterComponent.js) goes into [docs/jupyter.mdx](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/docs/jupyter.mdx)
+     * [TestJupyterComponent.js](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/src/pages/TestJupyterComponent.js) goes into [docs/jupyter.mdx](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/docs/jupyter.mdx)
 
 
 
