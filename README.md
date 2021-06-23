@@ -6,14 +6,12 @@
 
 [Docusaurs 2](https://docusaurus.io/) supports a plugin architecture. This repo demonstrates the flow of a plugin that could be used to parse a [jupyter notebook](https://jupyter.org/) and seamlessly add it into Docusaurus site. Doing so provides a way for machine learning engineers to easily share their jupyter notebook tutorials on their website. 
 
-This is how the plugin works:
-* The plugin converts the notebook to html and renders that in the browser
-    * Steps
-        1. Convert .ipynb → html using nbconvert 
-        2. Convert html → jsx using https://github.com/reactjs/react-magic/blob/master/README-htmltojsx.md
-            * Web-based version https://magic.reactjs.net/htmltojsx.htm
-        3. Add the converted jsx notebook as a component in a mdx doc page
-            * [TestJupyterComponent.js](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/src/pages/TestJupyterComponent.js) goes into [docs/jupyter.mdx](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/docs/jupyter.mdx)
+The plugin converts the notebook to html and renders that in the browser. This is how the plugin works:
+   1. Convert .ipynb → html using nbconvert 
+   2. Convert html → jsx using https://github.com/reactjs/react-magic/blob/master/README-htmltojsx.md
+    * Web-based version https://magic.reactjs.net/htmltojsx.htm
+   3. Add the converted jsx notebook as a component in a mdx doc page
+    * [TestJupyterComponent.js](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/src/pages/TestJupyterComponent.js) goes into [docs/jupyter.mdx](https://github.com/jlin27/docusaurus-plugin-jupyter-notebook/blob/main/my-website/docs/jupyter.mdx)
 
 
 
